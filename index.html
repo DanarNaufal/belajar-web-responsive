@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar web responsive</title>
+    <style>
+        .gambar {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 576px) {
+            table {
+                width: 100%;
+                background-color: aqua;
+            }
+            .gambar {
+                width: 100%;
+            }
+        }
+
+        /* small devices (potrait tablets and large phones, 600px and up) */
+        @media only screen and (min-width: 576px) {
+            table {
+                width: 90%;
+                background-color: aquamarine;
+            }
+            .gambar {
+                width: 600px;
+            }
+        }
+
+        /* medium devices (landscape tablets, 768px and up) */
+        @media only screen and (min-width: 992px) {
+            table {
+                width: 80%;
+                background-color: yellow;
+            }
+            .gambar {
+                width: 800px;
+            }
+        }
+
+        
+        /* medium devices (landscape tablets, 992px and up) */
+        @media only screen and (min-width: 992px) {
+            table {
+                width: 70%;
+                background-color: green;
+            }
+            .gambar {
+                width: 1000px;
+            }
+        }
+
+        /* large divices (laptop/dekstop, 992px and up) */
+        @media only screen and (min-width: 1200px) {
+            table {
+                width: 60%;
+                background-color: blue;
+            }
+            .gambar {
+                width: 1250px;
+            }
+        }
+
+        /* extra medium devices (landscape tablets, 1200px and up) */
+        @media only screen and (min-width: 1400px) {
+            table {
+                width: 70%;
+                background-color: green;
+            }
+            .gambar {
+                width: 1000px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th>no</th>
+                <th>nama</th>
+                <th>kelas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>danar</td>
+                <td>X.U.10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>tio</td>
+                <td>X.U.10</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>cena</td>
+                <td>X.U.10</td>
+            </tr>
+        </tbody>
+    </table>
+    <img src="pics/awan 3.jpeg" alt="awan" class="gambar">
+</body>
+</html>
